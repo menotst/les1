@@ -1,0 +1,21 @@
+﻿<Window x:Class="TextBlock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextBlock"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBlock Margin="10" Foreground="Red">
+                        Меня зовут Бакаре Тунде, я брат первого нигерийского космонавта,<LineBreak />
+                        майора ВВС Нигерии Абака Тунде.
+        </TextBlock>
+        <TextBlock Margin="10" TextTrimming="CharacterEllipsis" Foreground="Green">
+                        Мой брат стал первым африканским космонавтом, который отправился с секретной миссией на советскую станцию «Салют-6» в далеком 1979 году.
+        </TextBlock>
+        <TextBlock Margin="10" TextWrapping="Wrap" Foreground="Blue">
+                        Все русские члены команды сумели вернуться на землю, однако моему брату не хватило в корабле места.
+        </TextBlock>
+    </StackPanel>
+</Window>

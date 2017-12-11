@@ -1,0 +1,17 @@
+﻿<Window x:Class="HelloWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      
+        xmlns:local="clr-namespace:HelloWPF"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <sys:String x:Key="strHelloWPF">Hello, WPF!</sys:String>
+        <local:Worker x:Key="user" MyProperty="1"/>
+    </Window.Resources>
+    <StackPanel Margin="10">
+        <TextBlock Text="{StaticResource strHelloWPF}" FontSize="56" />
+        <TextBlock>Еще раз "<TextBlock Text="{StaticResource strHelloWPF}" />", но из ресурсов!</TextBlock>
+    </StackPanel>
+
+</Window>

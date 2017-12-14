@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWPF", "HelloWPF\HelloWPF.csproj", "{A30647F9-16A4-4106-9162-31DA87CE8593}"
 EndProject
@@ -40,6 +40,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowRelation", "WindowRelation\WindowRelation.csproj", "{25C22259-15FB-4AD1-961E-A1C514828B2E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{5C5DC04A-44B7-4168-A288-EDCF09D2469D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTestMailSender", "WpfTestMailSender\WpfTestMailSender.csproj", "{5184DA66-1BD5-415B-89F4-8140F7BB1541}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{5C5DC04A-44B7-4168-A288-EDCF09D2469D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C5DC04A-44B7-4168-A288-EDCF09D2469D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C5DC04A-44B7-4168-A288-EDCF09D2469D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5184DA66-1BD5-415B-89F4-8140F7BB1541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5184DA66-1BD5-415B-89F4-8140F7BB1541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5184DA66-1BD5-415B-89F4-8140F7BB1541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5184DA66-1BD5-415B-89F4-8140F7BB1541}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
